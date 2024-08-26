@@ -1,5 +1,7 @@
+import {nanoid} from "nanoid"
 export default [
   {
+      key: nanoid(),
       title: "Mount Fuji",
       location: "Japan",
       googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
