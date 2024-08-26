@@ -5,16 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
-
+html {
+  background: linear-gradient(90deg, #BA5370, #F4E2D8);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+p {
+  margin: 0;
+  text-wrap: wrap;
+}
+
 .header-div{
   display: flex;
-  background-color: #F55A5A;
+  
   color: white;
   justify-content: center;
   align-items: center;
@@ -23,4 +31,55 @@ code {
 .globe-img{
   width: 5em;
   height: auto;
+}
+
+.post-div {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.post-image {
+  width: 15em;
+  height: 20em;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+}
+
+.pindrop-img {
+  height: 1em;
+}
+
+.location{
+  color: #2B283A;
+  letter-spacing: 0.3rem;
+  margin-left: 0.3rem;
+  margin-right: 1rem;
+}
+
+.google-map-url {
+  color: white
+}
+
+.title {
+  font-size: 3rem;
+  margin: none;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.start-end-dates {
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.description {
+  max-width: 30rem;
 }
